@@ -17,6 +17,18 @@ nav{
     padding: 2vw 10.5vw;
     justify-content: space-between;
 }
+nav:hover #nav-bottom{
+    height: 100%;
+    bottom: -100%;
+}
+#nav-bottom{
+    height: 0%;
+    width: 80%;
+    position: absolute;
+    bottom: 0%;
+    border-bottom: 2px solid #dadada;
+    transition: all ease 0.65s;
+}
 .nav-part2{
     display: flex;
     gap: 2vw;
