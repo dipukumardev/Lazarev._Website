@@ -36,6 +36,21 @@ nav:hover #nav-bottom{
     padding-left: 18.2vw;
     padding-top: 3vw;
 }
+nav button{
+    background-color: #0DA34E;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 0.86vw;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+nav button svg{
+    width: 0.7vw;
+    margin-left: 1.6vw;
+}
 .bottom-div{
     margin-top: 2vw;
 }
