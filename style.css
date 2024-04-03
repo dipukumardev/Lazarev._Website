@@ -5,6 +5,9 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
 }
+:root{
+    --main_color:rgba(45,87,77,255);
+}
 html,body{
     height: 100%;
     width: 100%;
@@ -20,7 +23,7 @@ nav{
 nav:hover #nav-bottom{
     height: 150%;
     bottom: -150%;
-    background-color: #111;
+    background-color: var(--main_color);
 }
 #nav-bottom{
     height: 0%;
@@ -78,46 +81,11 @@ nav button svg{
 #page1{
     height: 100vh;
     width: 100%;
-    background-color: #111;
+    background-color:var(--main_color);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-#page1 h1{
-    font-size: 8.5vw;
-    font-weight: 900;
-}
-#page1 h1 svg{
-    height: 6vw;
-    width: 6vw;
-    background-color: #0DA34E;
-    border-radius: 50%;
-}
-#page1 p{
-    text-align: center;
-    margin-top: 2.4vh;
-    font-weight: 400;
-}
-#page1-threethings{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#page1-threethings h4{
-    font-weight: 400;
-    font-size: 1vw;
-    text-transform: lowercase;
-    padding: 5px 10px;
-    border: 1px solid #a5a5a5;
-    border-radius: 50px;
-    margin-top: 0.5vw;
-}
-
-
-#page1-threethings h4:nth-last-child(2){
-    border: none;
-    padding: 2px;
 }
 
 
